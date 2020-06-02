@@ -6,7 +6,7 @@
 
 _**Price**_: Sale price of one unit of good.
 $P$
-$\overbar{hello}$
+
 _**Quantity**_: Quantity demanded or supplied of a good.
 $Q$
 
