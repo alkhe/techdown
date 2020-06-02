@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "chokidar": "^3.4.0",
+    "handlebars": "^4.7.6",
+    "katex": "^0.11.1",
+    "nomnoml": "^0.7.1",
+    "remarkable": "^2.0.0"
+  }
+}
