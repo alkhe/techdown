@@ -1,7 +1,7 @@
 const chokidar = require('chokidar')
 const hbs = require('handlebars')
 const fs = require('fs')
-const techdown = require('..')
+const techdown = require('../..')
 
 const [input_file, output_file] = process.argv.slice(2)
 
@@ -10,7 +10,7 @@ const template = hbs.compile(raw_template)
 
 const tex_prelude = fs.readFileSync('./prelude.tex', 'utf8')
 
-const render = techdown(tex_prelude)
+const render = techdown({ tex_prelude })
 
 chokidar.watch(input_file, {
   awaitWriteFinish: {

@@ -11,11 +11,13 @@ function default_logger(x) {
   console.log(x)
 }
 
-module.exports = function techdown(
-  tex_prelude = null,
-  nomnoml_prelude = default_nomnoml_prelude,
-  logger = default_logger
-) {
-  return create_renderer(tex_prelude, nomnoml_prelude, logger)
+const default_options = {
+  tex_prelude: null,
+  nomnoml_prelude: default_nomnoml_prelude,
+  logger: default_logger
+}
+
+module.exports = function techdown(options) {
+  return create_renderer({ ...default_options, ...options })
 }
 
