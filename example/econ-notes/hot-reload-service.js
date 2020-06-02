@@ -9,8 +9,9 @@ const raw_template = fs.readFileSync('./template.html', 'utf8')
 const template = hbs.compile(raw_template)
 
 const tex_prelude = fs.readFileSync('./prelude.tex', 'utf8')
+const nomnoml_prelude = fs.readFileSync('./prelude.nml', 'utf8')
 
-const render = techdown({ tex_prelude })
+const render = techdown({ tex_prelude, nomnoml_prelude })
 
 chokidar.watch(input_file, {
   awaitWriteFinish: {
