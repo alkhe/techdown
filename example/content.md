@@ -29,7 +29,7 @@ $C = C_0 + C_V$
 _**Total Profit**_: Excess of benefit over cost.
 $\Pi = B - C$
 
-```nomnoml-block
+```chart
 [Price]->[Total Benefit]
 [Quantity]->[Total Benefit]
 [Fixed Cost]->[Total Cost]
