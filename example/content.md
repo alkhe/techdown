@@ -1,7 +1,3 @@
-$$
-\gdef\overbar#1{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
-$$
-
 # Chapter 1: Comparative Advantage and the Basis for Trade
 
 # Chapter 2: Supply in a Perfectly Competititve Market
@@ -10,7 +6,7 @@ $$
 
 _**Price**_: Sale price of one unit of good.
 $P$
-
+$\overbar{hello}$
 _**Quantity**_: Quantity demanded or supplied of a good.
 $Q$
 
