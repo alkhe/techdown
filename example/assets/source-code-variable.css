@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./fonts/SourceCodeVariable-Roman.otf.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'Source Code Variable';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('./fonts/SourceCodeVariable-Italic.otf.woff2') format('woff2');
+}
+

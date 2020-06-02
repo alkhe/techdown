@@ -1,7 +1,7 @@
 const chokidar = require('chokidar')
 const hbs = require('handlebars')
 const fs = require('fs')
-const renderer = require('./renderer')
+const renderer = require('../renderer')
 
 const [input_file, output_file] = process.argv.slice(2)
 
