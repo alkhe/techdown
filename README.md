@@ -1,6 +1,6 @@
 # techdown
 
-A markdown flavor for technical documents.
+A markdown flavor for technical documents, using [katex](https://github.com/KaTeX/KaTeX) and [nomnoml](https://github.com/skanaar/nomnoml).
 
 ## Get
 
@@ -37,7 +37,7 @@ const output = render(md)
 console.log(output) // <center><svg version="1.1" baseProfile="full" width="673"...
 ```
 
-Dump the output of `render` into an HTML file, and include the katex script and stylesheet:
+Dump the output of `render` into an HTML file, and include the katex stylesheet (necessary to display LaTeX content properly):
 
 ```html
 <html>
