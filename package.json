@@ -1,9 +1,17 @@
 {
+  "name": "techdown",
+  "version": "1.0.0",
+  "description": "Markdown + LaTeX + nomnoml = <3",
+  "main": "index.js",
+  "author": "mu@sacredsystems.org",
+  "license": "MIT",
   "dependencies": {
-    "chokidar": "^3.4.0",
-    "handlebars": "^4.7.6",
     "katex": "^0.11.1",
     "nomnoml": "^0.7.1",
     "remarkable": "^2.0.0"
+  },
+  "devDependencies": {
+    "chokidar": "^3.4.0",
+    "handlebars": "^4.7.6"
   }
 }
