@@ -1,3 +1,4 @@
+@top
 # Chapter 1: Comparative Advantage and the Basis for Trade
 
 # Chapter 2: Supply in a Perfectly Competititve Market
@@ -68,4 +69,4 @@ $A\Pi = \frac{\Pi}{Q} = AB - AC$
 > |Short Run|$A\Pi < -AC_0$|$AB < AC_V$|$\Pi < -C_0$|$B < C_V$|
 > |Long Run|$A\Pi < 0$|$AB < AC$|$\Pi < 0$|$B < C$|
 
-# Chapter 3: Demand in a Perfectly Competititve Market
+[Back to top](#top)
