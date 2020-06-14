@@ -69,4 +69,13 @@ $A\Pi = \frac{\Pi}{Q} = AB - AC$
 > |Short Run|$A\Pi < -AC_0$|$AB < AC_V$|$\Pi < -C_0$|$B < C_V$|
 > |Long Run|$A\Pi < 0$|$AB < AC$|$\Pi < 0$|$B < C$|
 
+<style>
+.small {
+  font-size: .75em;
+}
+</style>
+
+{.small
 [Back to top](#top)
+}
+
