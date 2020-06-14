@@ -1,6 +1,6 @@
 {
   "name": "techdown",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Markdown + LaTeX + nomnoml = <3",
   "main": "index.js",
   "author": "mu@sacredsystems.org",
