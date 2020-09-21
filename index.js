@@ -3,6 +3,7 @@ const create_renderer = require('./lib/renderer')
 const default_nomnoml_prelude =
 `#edgeMargin: 10
 #fill: transparent
+#background: transparent
 #lineWidth: 2
 #padding: 12`
 

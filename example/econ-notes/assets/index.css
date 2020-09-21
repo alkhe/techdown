@@ -62,22 +62,6 @@ h2 {
   padding-bottom: 8px;
 }
 
-svg path, svg rect {
-  stroke: #1f1b4a !important;
-}
-
-svg text {
-  fill: #1f1b4a !important;
-}
-
-blockquote svg path, blockquote svg rect {
-  stroke: #e7e7ec !important;
-}
-
-blockquote svg text {
-  fill: #e7e7ec !important;
-}
-
 blockquote {
   background: #1f1b4a;
   color: #e7e7ec;
